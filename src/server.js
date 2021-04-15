@@ -13,7 +13,7 @@ app.get('/person', validator, (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.status(200).send(`You're up and running!`)
+  res.status(200).send(`You're up and running! AND this was deployed automatically!`)
 })
 
 app.use('*', notFound);
